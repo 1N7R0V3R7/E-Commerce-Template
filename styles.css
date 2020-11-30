@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+::-webkit-scrollbar {
+  width: 100;
+}
+
+/* Yellow:- #eab11a */
+
+
+/* Navigation Bar */
+.navbar-brand {
+	font-size: 30px;
+	font-weight: bolder;
+	color: #000000;
+	transition: 0.25s;
+}
+.navbar-brand:hover {
+	color: #eab11a;
+}
+.navbar-brand > span {
+	color: #eab11a;
+}
+.navbar-nav a {
+	color: #000000;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	transition: 0.25s;
+}
+.navbar-nav a:hover {
+	color: #eab11a;
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {	
+	.navbar-toggler {
+		float: right;
+		margin-right: 1vw;
+	}
+}
+@media screen and (min-width: 768px) {
+	.navbar-toggler {
+		visibility: hidden;
+	}
+	#navigationMenu {
+		visibility: hidden;
+	}
+}
+svg {
+	width: 1.5rem;
+	height: 1.5rem;
+	transition: 0.25s;
+	margin-right: 0.5vw;
+	margin-left: 0.5vw;
+}
+svg:hover {
+	color: #eab11a;
+}
