@@ -9,50 +9,53 @@
 
 /* Yellow:- #eab11a */
 
-
 /* Navigation Bar */
 .navbar-brand {
-	font-size: 30px;
-	font-weight: bolder;
+	font-size: 1.8rem;
+	text-decoration: none;
 	color: #000000;
+	font-weight: bolder;
 	transition: 0.25s;
+}
+.navbar-brand span {
+	color: #eab11a;
 }
 .navbar-brand:hover {
 	color: #eab11a;
 }
-.navbar-brand > span {
-	color: #eab11a;
-}
-.navbar-nav a {
+.nav-link {
 	color: #000000;
 	margin-left: 1vw;
 	margin-right: 1vw;
-	transition: 0.25s;
+	transition: 0.25s
 }
-.navbar-nav a:hover {
+.nav-link:hover {
 	color: #eab11a;
 }
-@media screen and (min-width: 0px) and (max-width: 768px) {	
-	.navbar-toggler {
-		float: right;
-		margin-right: 1vw;
-	}
-}
-@media screen and (min-width: 768px) {
-	.navbar-toggler {
-		visibility: hidden;
-	}
-	#navigationMenu {
-		visibility: hidden;
-	}
-}
-svg {
+.icons svg {
 	width: 1.5rem;
 	height: 1.5rem;
+	margin-right: 1.5vw;
 	transition: 0.25s;
-	margin-right: 0.5vw;
-	margin-left: 0.5vw;
 }
-svg:hover {
+.icons svg:hover {
 	color: #eab11a;
 }
+#navigationMenu {
+	margin-right: 1vw;
+}
+@media screen and (min-width: 768px){
+	#navigationMenu {
+		display: none;
+	}
+}
+button .navbar-toggler {
+	position: relative;
+}
+
+
+
+
+
+
+
