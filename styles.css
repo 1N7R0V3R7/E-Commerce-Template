@@ -5,7 +5,7 @@
 	font-family: 'Montserrat', sans-serif;
 }
 ::-webkit-scrollbar {
-  width: 100;
+  width: 0;
 }
 
 /* Yellow:- #eab11a */
@@ -135,9 +135,6 @@
 	margin-left: -3px;
 	color: #ffffff;
 }
-
-
-
 .carousel-inner > .carousel-item > img {
 	width: 100%;
 	max-height: 35vw;
@@ -145,7 +142,35 @@
 }
 
 
-
+#latestProducts {
+	background-color: #eab11a;
+}
+#latestProducts .heading {
+	font-size: 3rem;
+	color: #000000;
+	padding-top: 2vw;
+	margin-top: 1.5vw;
+	font-weight: bold;
+	color: #ffffff;
+}
+#latestProducts .card-img-top {
+	margin-top: 10px;
+}
+#latestProducts .card {
+/*
+	margin-right: 10px;
+	margin-left: 10px;
+*/
+}
+#originalPrice {
+	color: lightslategray;
+	font-size: 0.8rem;
+	text-decoration: line-through;
+}
+#discountedPrice {
+	color: #eab11a;
+	font-size: 1.2rem;
+}
 
 
 
