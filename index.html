@@ -29,7 +29,7 @@
 		
 		<!-- Navigation Bar -->
 		
-		<nav class="navbar navbar-expand-md">
+		<nav class="navbar navbar-expand-lg">
 			<a href="index.html" class="navbar-brand">
 				<span>E</span>lab.
 			</a>
@@ -100,14 +100,65 @@
 		<section id="coverArea">
 			<div class="container-fluid">
 				<div class="row">
-					<div id="categorisation" class="col-lg-3 col-md-3">
+					<div id="categorisation" class="col-xl-3 col-lg-12 col-md-12">
 						<div class="col-lg-12 heading">
 							<a class="dropdownToggle" data-toggle="collapse" href="#categories" role="button" aria-expanded="false" aria-controls="collapseExample">
 								<ion-icon id="dropdownIcon" size="large" name="menu-outline"></ion-icon>
 							</a>
 							<span>Categories</span>
 						</div>
-						<div id="categories">
+						<div id="categories" class="collapse">
+							<div class="categoryItem">
+								<a href="" class="categoryLinks">
+									<ion-icon id="categoriesIcons" name="grid-outline"></ion-icon>
+									Accessories
+								</a>
+							</div>
+							<div class="categoryItem">
+								<a href="" class="categoryLinks">
+									<ion-icon id="categoriesIcons" name="desktop-outline"></ion-icon>
+									Computers
+								</a>
+							</div>
+							<div class="categoryItem">
+								<a href="" class="categoryLinks">
+									<ion-icon id="categoriesIcons" name="camera-outline"></ion-icon>
+									Camera &amp; Photos
+								</a>
+							</div>
+
+							<div class="categoryItem">
+								<a href="" class="categoryLinks">
+									<ion-icon id="categoriesIcons" name="phone-portrait-outline"></ion-icon>
+									Mobiles &amp; Tablets
+								</a>
+							</div>
+							<div class="categoryItem">
+								<a href="" class="categoryLinks">
+									<ion-icon id="categoriesIcons" name="tv-outline"></ion-icon>
+									Tv's &amp; Audio
+								</a>
+							</div>
+							<div class="categoryItem">
+								<a href="" class="categoryLinks">
+									<ion-icon id="categoriesIcons" name="watch-outline"></ion-icon>
+									Watches
+								</a>
+							</div>
+							<div class="categoryItem">
+								<a href="" class="categoryLinks">
+									<ion-icon id="categoriesIcons" name="headset-outline"></ion-icon>
+									Headphone
+								</a>
+							</div>
+							<div class="categoryItem">
+								<a href="" class="categoryLinks">
+									<ion-icon id="categoriesIcons" name="megaphone-outline"></ion-icon>
+									Speakers
+								</a>
+							</div>
+						</div>						
+						<div id="categoriesHide" class="">
 							<div class="categoryItem">
 								<a href="" class="categoryLinks">
 									<ion-icon id="categoriesIcons" name="grid-outline"></ion-icon>
@@ -159,7 +210,7 @@
 							</div>
 						</div>
 					</div>
-					<div id="searchAndImage" class="col-lg-9 col-md-9 col-sm-12 col-12">
+					<div id="searchAndImage" class="col-xl-9 col-lg-12 col-md-12 col-sm-12 col-12">
 						<div id="search" class="col-lg-12 col-md-12 col-sm-12 col-12">
 							<input type="text" placeholder="What are you looking for?">
 							<button class="btn btn-lg rounded-circle">
