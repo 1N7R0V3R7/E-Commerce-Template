@@ -57,6 +57,9 @@
 	#search {
 		margin-top: 10px;
 	}
+	.carousel-item {
+	
+	}
 }
 
 
@@ -111,12 +114,13 @@
 	padding-left: 0px;
 	padding-right: 0px;
 	height: 3rem;
+	display: inline-flex;
 }
 #search > input {
 	border-radius: 50px;
 	width: 90%;
 	height: 3rem;
-/*	border-color: #eab11a;*/
+	border-color: #eab11a;
 }
 #search > button {
 	margin-top: -4px;
@@ -127,6 +131,8 @@
 	margin-left: -3px;
 	color: #ffffff;
 }
+
+/*
 .carousel-item {
 	height: 34.8vw;
 	margin-top: 10px;
@@ -135,8 +141,16 @@
 .carousel-item > img {
 	width: 100%;
 }
+*/
 
-
+.carousel-item {
+	text-align: center;
+}
+.carousel-inner > .carousel-item > img {
+	width: 95%;
+	max-height: 35vw;
+	margin-top: 10px;
+}
 
 
 
