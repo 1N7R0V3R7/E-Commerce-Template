@@ -177,6 +177,7 @@
 	text-align: center;
 	padding-left: 0px;
 	padding-right: 0px;
+	border-radius: 2.5px;
 }
 .quickChoose {
 	display: none;
