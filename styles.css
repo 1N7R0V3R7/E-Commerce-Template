@@ -197,32 +197,32 @@
 }
 
 #casualCards {
-	margin-top: 2vw;
+	margin-top: 2.5vw;
 }
 #casualCards .card-body {
-	margin-top: -15px;
+	margin-top: 15px;
 }
 #casualCards .casualCard1 {
 	background-image: url(Products/Cards/card1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	margin: 10px 0px 10px 0px;
 	height: auto;
 	min-height: 20rem;
-	margin: 10px 10px 10px 10px;
 	color: #ffffff;
-	padding-top: 1rem;
+	padding-top: 2rem;
 }
 #casualCards .casualCard2 {
-	background-image: url(Products/latestProducts/headphone.jpg);
+	background-image: url(Products/Cards/card7.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	margin: 10px 0px 10px 0px;
 	height: auto;
 	min-height: 20rem;
-	margin: 10px 10px 10px 10px;
-	color: #000000;
-	padding-top: 1rem;
+	color: #ffffff;
+	padding-top: 2rem;
 }
 #casualCards button {
 	background-color: #eab11a;
@@ -268,16 +268,79 @@
 #latestProducts2 .card:hover{
 	margin: -10px 0px -10px 0px;
 }
-#cards2 {
 
-}
 /*
-#cards2 .card:nth-child(2n){
-	display: inline-flex;
-}
-#cards2 .card:nth-child(2n+1){
-	display: inline-flex;
+#casualCards .row {
+	justify-content: space-around;
 }
 */
+#casualCards .casualCard3 {
+	background-image: url(Products/Cards/card6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 5px 0px 5px 0px;
+	height: auto;
+	min-height: 15rem;
+	color: #000000;
+	padding-top: 2rem;
+}
+#casualCards .casualCard4 {
+	background-image: url(Products/Cards/card4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 5px 0px 5px 0px;
+	height: auto;
+	min-height: 15rem;
+	color: #ffffff;
+	padding-top: 2rem;
+}
+#casualCards .casualCard5 {
+	background-image: url(Products/Cards/card3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 5px 0px 5px 0px;
+	height: auto;
+	min-height: 15rem;
+	color: #000000;
+	padding-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
