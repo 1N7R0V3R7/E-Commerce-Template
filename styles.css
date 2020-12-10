@@ -7,10 +7,6 @@
 ::-webkit-scrollbar {
   width: 0;
 }
-
-/* Yellow:- #eab11a */
-
-/* Navigation Bar */
 .navbar-brand {
 	font-size: 1.8rem;
 	text-decoration: none;
@@ -52,7 +48,6 @@
 	.dropdownToggle {
 		display: none;
 	}
-	
 }
 @media screen and (max-width: 1200px){
 	#search {
@@ -65,11 +60,6 @@
 		min-height: 300px;
 	}
 }
-
-
-
-/* Cover */
-
 .navbar-toggler #dropdownIcon {
 	color: #000000;
 	transition: 0.25s;
@@ -91,6 +81,11 @@
 	position: relative;
 	top: 8px;
 }
+.heading .dropdownToggleOther {
+	position: relative;
+	top: 8px;
+}
+
 #categoriesIcons {
 	color: #eab11a;
 	font-size: 1.5rem;
@@ -114,7 +109,6 @@
 #search {
 	height: 5vw;
 	text-align: center;
-/*	border: 1px solid black;*/
 	padding-left: 0px;
 	padding-right: 0px;
 	height: 3rem;
@@ -140,7 +134,6 @@
 	max-height: 35vw;
 	margin-top: 10px;
 }
-
 
 #latestProducts {
 	background-color: #eab11a;
@@ -195,7 +188,6 @@
 #shortcutIcon {
 	color: #ffffff;
 }
-
 #casualCards {
 	margin-top: 2.5vw;
 }
@@ -227,8 +219,6 @@
 #casualCards button {
 	background-color: #eab11a;
 }
-
-
 #dealOfTheDay {
 	margin-top: 2vw;
 }
@@ -271,7 +261,6 @@
 #latestProducts2 .card:hover{
 	margin: -10px 0px -10px 0px;
 }
-
 #casualCards .casualCard3 {
 	background-image: url(Products/Cards/card6.jpg);
 	background-repeat: no-repeat;
@@ -305,13 +294,11 @@
 	color: #000000;
 	padding-top: 2rem;
 }
-
 h6 {
 	font-style: italic;
 	color: #eab11a;
 	font-size: 0.9rem;
 }
-
 #multipleCarousel .card {
 	transition: 0.5s;
 }
@@ -328,10 +315,6 @@ h6 {
 	justify-content: space-between;
 	text-decoration: none;
 }
-
-
-
-
 #contact {
 	margin-top: 3vw;
 	color: #ffffff;
@@ -343,8 +326,8 @@ h6 {
 	font-size: 0.8rem;
 }
 #contactUs > div {
-	margin-top: 1.5vw;
-	margin-bottom: 1.5vw;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
 }
 #subscription {
 	background-color: #eab11a;
@@ -357,18 +340,18 @@ h6 {
 	height: 2.5rem;
 	width: 70%;
 	border-color: #ffffff;
-	margin-top: 1.5vw;
-	margin-bottom: 1.5vw;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
 }
 #subscription button {
 	color: #ffffff;
 	border-radius: 50px;
 	border-color: #ffffff;
-	margin-top: 1.5vw;	
-	margin-bottom: 1.5vw;
+	margin-top: 2vw;	
+	margin-bottom: 2vw;
 	height: 2.5rem;
 }
-#contactIcon {
+#addressElements svg {
 	display: inline-block;
 }
 
@@ -446,7 +429,6 @@ h6 {
 	padding-bottom: 0.5vw;
 	cursor: pointer;
 }
-
 footer {
 	margin-top: 3vw;
 	font-size: 0.8rem;
@@ -460,9 +442,62 @@ footer {
 
 
 
+/* Contact Page */
+#map {
+	margin-top: 1vw;
+	filter: invert(95%);
+}
+#getInTouch {
+	margin: 0px 4vw 0px 4vw;
+	position: relative;
+	bottom: 20vw;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#addressDetails {
+	background-color: #eab11a;
+	color: #ffffff;
+	padding: 2vw 2vw 2vw 2vw;
+}
+#details {
+	background-color: #f0f5f8;
+	color: #332f2f;
+	padding: 4vw 4vw 4vw 4vw;
+	font-size: 0.9rem;
+	font-weight: 700;
+}
+#details .heading {
+	font-weight: bolder;
+}
+#details input {
+	width: 100%;
+	height: 40px;
+	font-weight: 700;
+	padding-left: 20px;
+}
+#details #line {
+	margin-top: 2vw;
+}
+#line .title {
+	margin-top: 10px;
+}
+#details span {
+	margin-right: 5vw;
+}
+#details button {
+	color: #ffffff;
+	background-color: #eab11a;
+	border-radius: 25px;
+	margin: 2vw 0px 0px 3vw;
+	font-size: 0.9rem;
+}
 
-
-
+#glyphs {
+	margin: -15vw 0px 15vw 0px;
+}
+#glyphs .text-center {
+	margin-top: 5vw;
+}
 
 
 
