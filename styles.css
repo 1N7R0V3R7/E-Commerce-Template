@@ -448,9 +448,15 @@ footer {
 	margin-bottom: 1.5vw;
 	padding-top: 1.5vw;
 }
-
-
-
+@media screen and (max-width: 576px) {
+	#address {
+		position: relative;
+		top: 50px;
+	}
+	footer {
+		margin-top: 3rem;
+	}
+}
 
 
 
@@ -830,4 +836,116 @@ footer {
 #productsPageLink {
 	text-decoration: none;
 	color: white;
+}
+#navigation {
+	margin-top: 1rem;
+}
+#productCard {
+	height: 20rem;
+	background-image: url(Products/Cards/card4.jpg);
+	background-position: center;
+	color: #ffffff;	
+	padding-left: 5vw;
+}
+#productCard h5 {
+	font-size: 0.9rem;
+	padding-top: 50px;
+	
+}
+#productCard h1 {
+	font-weight: lighter;
+	margin-top: 1rem;
+}
+#productCard span button:nth-child(1) {
+	border-radius: 25px;
+	background-color: #eab11a;
+	color: #ffffff;
+	padding: 10px 20px 10px 20px; 
+	font-size: 0.7rem;
+}
+#productCard span button:nth-child(2) {
+	border-radius: 25px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	padding: 10px 20px 10px 20px; 
+	font-size: 0.7rem;
+}
+#productCard span button:hover {
+	background-color: #343a40;
+}
+#products div {
+	margin-bottom: 1rem;
+}
+#products div:nth-child(2) button {
+	border-radius: 25px;
+	border: 1px solid black;
+}
+#products svg {
+	width: 2rem;
+	height: 2em;
+	color: #343a40;
+	transition: 0.25s;
+}
+#products svg:hover {
+	color: #eab11a;
+}
+#sectionA, #sectionB {
+	width: 70vw;
+}
+
+@media screen and (max-width: 992px) {
+	#sectionA, #sectionB {
+		width: 60vw;
+	}
+}
+@media screen and (max-width: 768px) {
+	#sectionA, #sectionB {
+		width: 83vw;
+	}
+}
+.productCategoryLinks {
+	font-size: 1rem;
+	color: #000000;
+	transition: 0.25s;
+}
+.productCategoryLinks:hover {
+	color: #eab11a;
+	padding-left: 5px;
+	text-decoration: none;
+}
+#navigator p,#brands p,#navigatorHide p {
+	font-size: 1.1rem;
+	font-weight: bold;
+	padding-left: 5px;
+	margin-bottom: -0.2rem;
+}
+#brands,#colors {
+	margin-top: 2rem;
+}
+#brands ul {
+	padding-left: 25px;
+	list-style: disc;
+	color: #eab11a;
+}
+#brands li,#colors li {
+	padding: 0.5rem;
+}
+#brands a,#colors a {
+	color: #000000;
+	transition: 0.25s;
+}
+#brands a:hover, #colors a:hover {
+	padding-left: 5px;
+	text-decoration: none;
+}
+#colors ul {
+	color: #eab11a;
+	list-style: none;
+}
+#colors input {
+	color: #eab11a;
+	margin-right: 15px;
+}
+.card-body ul {
+	font-size: 0.8rem;
 }
